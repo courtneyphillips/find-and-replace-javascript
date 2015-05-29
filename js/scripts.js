@@ -1,9 +1,3 @@
 var findAndReplace = function(phrase, word, replacement) {
-  var newSentence = phrase.replace(word, replacement);
-  return newSentence;
+  return phrase.replace(new RegExp(word, "gi"),replacement);
 }
-
-
-// var replace = function(phrase, word, replacement) {
-//   var sentence = find(phrase);
-// }
