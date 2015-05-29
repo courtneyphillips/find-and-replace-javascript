@@ -1,5 +1,5 @@
-var findAndReplace = function(phrase, word, replacement) {
+var find = function(phrase, word, replacement) {
   var sentence = phrase.split(" ");
-  return sentence;
 
+  return sentence;
 }
