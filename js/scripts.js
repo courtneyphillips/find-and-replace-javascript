@@ -10,6 +10,7 @@ $(document).ready(function(){
     var output = findAndReplace(phrase, word, replacement);
     $(".output").text(output);
     $("#result").slideToggle("slow");
+    $("#result").addClass('animated fadeInDownBig');
     event.preventDefault();
   });
 

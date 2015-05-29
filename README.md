@@ -31,6 +31,10 @@ All necessary versions are included within the application's project folder. As 
 
 Tests for Find & Replace utilize Chai.js and Mocha.js. To test, run the spec-runner.html file included in the project folder. Additional tests may be written directly into this file.
 
+## Credit
+
+Find & Replace utilizes both [Hover.css](http://ianlunn.github.io/Hover/) created by Ian Lunn and [Animate.css](https://github.com/daneden/animate.css) by Dan Eden for miscellaneous animated effects.
+
 ## Contact
 
 Questions, concerns, hellos, or other grievances can be directed to Courtney at <courtney.mae.phillips@gmail.com>.
