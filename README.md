@@ -9,7 +9,7 @@ Find & Replace is a simple Ruby application built by [Courtney Phillips](https:/
 
 ## Motivation
 
-The Hair Find & Replace app was created as an exercise in seamlessly integrating JavaScript logic, jQuery functionality, and HTML & CSS aesthetics into one fluid, easy-to-use application.
+The Find & Replace app was created as an exercise in seamlessly integrating JavaScript logic, jQuery functionality, and HTML & CSS aesthetics into one fluid, easy-to-use application.
 
 ## Contribute
 
