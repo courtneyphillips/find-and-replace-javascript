@@ -1,61 +1,39 @@
 
-#Salon Management
+#Find and Replace
 
 ---
 
 ## Synopsis
 
-Salon Management is a simple Ruby application built by [Courtney Phillips](https://github.com/courtneymaepdx) with the ability to record hairstylists and their corresponding clients into a database for later recall. Both stylists and clients entries can then be edited as necessary. Crafted as part of the Spring 2015 Ruby course curriculum at [Epicodus](https://www.epicodus.com/).
+Find & Replace is a simple Ruby application built by [Courtney Phillips](https://github.com/courtneymaepdx) with the ability to seek out a given word within a provided phrase, and replace each occurrence of that word with another. Crafted as part of the Spring 2015 JavaScript course curriculum at [Epicodus](https://www.epicodus.com/).
 
 ## Motivation
 
-The Hair Salon Management app was created with the following needs of salon owners in mind, as depicted by user stories:
-
-- As an salon owner, I want to view, add, update and delete stylists.
-- As a salon owner, I want to view, add, update and delete clients.
-- As a salon owner, I want to add clients to a stylist.
-
-## Database Setup
-
-```
-# psql
-username=# CREATE DATABASE hair_salon;
-username=# \c hair_salon;
-hair_salon=# CREATE TABLE clients (id serial PRIMARY KEY, name varchar, stylist_id int);
-hair_salon=# CREATE TABLE sylists (id serial PRIMARY KEY, name varchar);
-hair_salon=# CREATE DATABASE hair_salon_test WITH TEMPLATE hair_salon;
-```
+The Hair Find & Replace app was created as an exercise in seamlessly integrating JavaScript logic, jQuery functionality, and HTML & CSS aesthetics into one fluid, easy-to-use application.
 
 ## Contribute
 
-- Issue Tracker: https://github.com/courtneyphillips/salon-database/issues
-- Source Code: https://github.com/courtneyphillips/salon-database
-- Pull Requests: https://github.com/courtneyphillips/salon-database/pulls
+- Issue Tracker: https://github.com/courtneyphillips/find-and-replace/issues
+- Source Code: https://github.com/courtneyphillips/find-and-replace
+- Pull Requests: https://github.com/courtneyphillips/find-and-replace/pulls
 
 ## Installation
 
-Interactive Dictionary uses the following gems:
+Interactive Dictionary uses the following:
 
-- Capybara
-- Sinatra
-- Sinatra-Contrib
-- RSpec
-- Pry
-- PG
+- Chai.js
+- Mocha.js
+- jQuery
 
-To install, run `$ gem install bundle` in the command line.
+All necessary versions are included within the application's project folder. As such, simply fork or clone, and run the find_and_replace.html file in the browser.
 
 ## Tests
 
-Both method and integration tests for Salon Management utilize the RSpec. Simply run `$ gem install rspec`, if it's not already installed, simply issue the command `$ rspec`, while located in the project's file.
-
-## Links
-
-- GitHub: https://github.com/courtneyphillips/interactive-dictionary
+Tests for Find & Replace utilize Chai.js and Mocha.js. To test, run the spec-runner.html file included in the project folder. Additional tests may be written directly into this file.
 
 ## Contact
 
-Questions, concerns, fan-mail, or other grievances can be directed to Courtney at <courtney.mae.phillips@gmail.com>.
+Questions, concerns, hellos, or other grievances can be directed to Courtney at <courtney.mae.phillips@gmail.com>.
 
 ## License
 
