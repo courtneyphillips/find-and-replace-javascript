@@ -13,9 +13,9 @@ The Hair Find & Replace app was created as an exercise in seamlessly integrating
 
 ## Contribute
 
-- Issue Tracker: https://github.com/courtneyphillips/find-and-replace/issues
-- Source Code: https://github.com/courtneyphillips/find-and-replace
-- Pull Requests: https://github.com/courtneyphillips/find-and-replace/pulls
+- Issue Tracker: https://github.com/courtneyphillips/find-and-replace-javascript/issues
+- Source Code: https://github.com/courtneyphillips/find-and-replace-javascript
+- Pull Requests: https://github.com/courtneyphillips/find-and-replace-javascript/pulls
 
 ## Installation
 
@@ -24,6 +24,8 @@ Interactive Dictionary uses the following:
 - Chai.js
 - Mocha.js
 - jQuery
+- Animate.css
+- Hover.css
 
 All necessary versions are included within the application's project folder. As such, simply fork or clone, and run the find_and_replace.html file in the browser.
 
